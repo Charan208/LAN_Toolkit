@@ -1,4 +1,41 @@
 # LAN_Toolkit
+
+## Introduction:
+This toolkit contains several scripts designed for educational purposes to test and simulate attacks on devices within your own test environment. The commands simulate freezing or shutting down systems on a local network (LAN).
+
+**Warning:** These actions can **disrupt** and **damage** systems. Use only in a **safe lab** environment or virtual machine setup.
+
+## Files:
+- `scan_lan.sh`: Scans the local network for devices (Linux/macOS).
+- `shutdown_target.cmd`: Forces shutdown on a target machine (Windows).
+- `freeze.bat`: Freezes the system by executing a fork bomb (Windows).
+- `forkbomb.sh`: Freezes the system by executing a fork bomb (Linux/macOS).
+- `udp_flood.py`: Simulates a UDP flood to overload a target machine (Python).
+
+## Legal Disclaimer:
+**Do not** attempt to use these tools on machines or networks without explicit permission from the owner. Unauthorized access or disruption is illegal and can result in legal consequences.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# LAN_Toolkit
 LAN_Toolkit is a set of scripts ethical penetration testing purposes, specifically tailored to analyze and simulate attacks on machines within a local area network (LAN). These tools are intended for use in controlled environments
 
 🚀 Key Features of LAN_Toolkit:
